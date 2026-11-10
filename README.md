@@ -1,4 +1,4 @@
-# Python_Selenium
+# Python Selenium
 
 Selenium WebDriver practice in Python: a small pytest framework with page objects, plus standalone demo scripts for common Selenium tasks (locators, waits, alerts, frames, child windows, actions, tables, calendars, Excel upload/download).
 
@@ -146,7 +146,3 @@ The Excel scripts (`upload.py`, `ed.py`, `excelDemo.py`) read and write `downloa
 
 Do not put real credentials in this repo. Keep any private values in a `.env` file, which is git-ignored.
 
-## Known issues
-
-- The tests depend on live third-party sites, so they can fail when those sites change or are slow.
-- As of November 2026 the ProtoCommerce shop sometimes ignores clicks on **Add** and **Checkout** under automation, so `test_e2e` can fail at the cart step.
