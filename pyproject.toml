@@ -1,0 +1,14 @@
+[project]
+name = "pythontesting"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "selenium>=4.52.0",
+    "openpyxl>=3.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "pytest-html>=4",
+]
